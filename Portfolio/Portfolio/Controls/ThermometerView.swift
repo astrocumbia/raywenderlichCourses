@@ -67,6 +67,8 @@ class ThermometerView: UIView {
     layer.addSublayer(thermoLayer)
     layer.addSublayer(levelLayer)
     
+    
+    
     let width = bounds.width - lineWidth
     let heigth = bounds.height - lineWidth / 2
     let path = UIBezierPath(ovalIn: CGRect(x: 0, y: heigth-width, width: width, height: width))

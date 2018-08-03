@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,11 +16,11 @@
             <objects>
                 <viewController storyboardIdentifier="Rating" id="Vo5-wP-dwe" userLabel="Rating" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ccn-9Q-s19">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HmV-O9-quW" customClass="RatingView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="40" y="211" width="334" height="334"/>
+                                <rect key="frame" x="40" y="174" width="240" height="240"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="HmV-O9-quW" secondAttribute="height" multiplier="1:1" id="TAG-Nj-Pcg"/>
@@ -51,11 +51,11 @@
             <objects>
                 <viewController storyboardIdentifier="Login" id="vID-I9-MKN" userLabel="Login" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vng-hx-Q1i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ywl-Ve-vkf" customClass="LoginView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="50" y="221" width="314" height="314"/>
+                                <rect key="frame" x="50" y="184" width="220" height="220"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ywl-Ve-vkf" secondAttribute="height" multiplier="1:1" id="3sa-5u-dZK"/>
@@ -81,11 +81,11 @@
             <objects>
                 <viewController storyboardIdentifier="Clock" id="j5O-F1-beD" userLabel="Clock" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y3t-fR-5fT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ZW-iy-iDn" customClass="ClockView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="40" y="211" width="334" height="334"/>
+                                <rect key="frame" x="40" y="174" width="240" height="240"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2ZW-iy-iDn" secondAttribute="height" multiplier="1:1" id="rh5-Yi-nyG"/>
@@ -111,11 +111,11 @@
             <objects>
                 <viewController storyboardIdentifier="Graph" id="QX7-u7-aM6" userLabel="Graph" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PuK-Cl-ac3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9U-ui-MBE" customClass="GraphView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="30" y="191" width="354" height="354"/>
+                                <rect key="frame" x="30" y="154" width="260" height="260"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="j9U-ui-MBE" secondAttribute="height" multiplier="1:1" id="kVV-hU-rtd"/>
@@ -141,11 +141,11 @@
             <objects>
                 <viewController storyboardIdentifier="Thermometer" title="Thermometer" id="GED-ro-lBr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MVV-a6-LzA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwF-pM-gVk" customClass="ThermometerView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="173.66666666666666" y="217" width="67" height="184"/>
+                                <rect key="frame" x="126.5" y="133" width="67" height="184"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="184" id="QXT-8A-gwm"/>
@@ -175,11 +175,11 @@
             <objects>
                 <viewController storyboardIdentifier="Budget" title="Budget" id="kvC-ce-d0j" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vta-DX-rSf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dra-kX-v7o" customClass="BudgetView" customModule="Portfolio" customModuleProvider="target">
-                                <rect key="frame" x="35" y="196" width="344" height="344"/>
+                                <rect key="frame" x="35" y="159" width="250" height="250"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dra-kX-v7o" secondAttribute="height" multiplier="1:1" id="3DL-mV-ou6"/>
